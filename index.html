@@ -1,2 +1,91 @@
-<title>Podstawowa Strona Internetowa</title>
- <style> body { font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0; } header { background-color: #4CAF50; color: white; padding: 15px 0; text-align: center; } main { padding: 20px; } footer { background-color: #333; color: white; text-align: center; padding: 10px 0; position: fixed; width: 100%; bottom: 0; } </style>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podstawowa Strona Internetowa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Podstawowa Strona Internetowa</h1>
+    </header>
+    <main>
+        <h1>Lista Produktów</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nazwa Produktu</th>
+                    <th>Opis</th>
+                    <th>Cena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Produkt 1</td>
+                    <td>Opis produktu 1</td>
+                    <td>100 PLN</td>
+                </tr>
+                <tr>
+                    <td>Produkt 2</td>
+                    <td>Opis produktu 2</td>
+                    <td>200 PLN</td>
+                </tr>
+                <tr>
+                    <td>Produkt 3</td>
+                    <td>Opis produktu 3</td>
+                    <td>300 PLN</td>
+                </tr>
+                <tr>
+                    <td>Nowy Produkt</td>
+                    <td>Opis nowego produktu</td>
+                    <td>400 PLN</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Twoja Firma</p>
+    </footer>
+</body>
+</html>
