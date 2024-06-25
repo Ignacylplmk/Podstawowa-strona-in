@@ -3,46 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Podstawowa Strona Internetowa</title>
+    <title>Strona z Produktami</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px 0;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
+        table {
             width: 100%;
-            bottom: 0;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Witamy na Naszej Stronie</h1>
-    </header>
-    <main>
-        <h2>O Nas</h2>
-        <p>To jest przykładowa strona internetowa stworzona w HTML.</p>
-        <h2>Kontakt</h2>
-        <p>Możesz skontaktować się z nami pod adresem <a href="mailto:kontakt@przyklad.pl">kontakt@przyklad.pl</a>.</p>
-    </main>
-    <footer>
-        &copy; 2024 Nasza Strona. Wszelkie prawa zastrzeżone.
-    </footer>
+    <h1>Lista Produktów</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nazwa Produktu</th>
+                <th>Opis</th>
+                <th>Cena</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Produkt 1</td>
+                <td>Opis produktu 1</td>
+                <td>100 PLN</td>
+            </tr>
+            <tr>
+                <td>Produkt 2</td>
+                <td>Opis produktu 2</td>
+                <td>200 PLN</td>
+            </tr>
+            <tr>
+                <td>Produkt 3</td>
+                <td>Opis produktu 3</td>
+                <td>300 PLN</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
